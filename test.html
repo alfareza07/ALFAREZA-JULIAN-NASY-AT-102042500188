@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <meta charset="UTF-8">
+
+    <!-- 🔴 UBAH DI SINI: Judul website -->
+    <title>Alfareza Julian Nasy'at</title>
+
+    <!-- 🔴 UBAH DI SINI: Favicon kalau punya -->
+    <link rel="icon" href="foto.jpg">
+
+    <style>
+
+        /* ==============================
+           TAMPILAN DASAR
+        ============================== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            text-align: center;
+            padding-top: 75px;
+        }
+
+
+        /* ==============================
+           FOTO
+        ============================== */
+
+        .foto {
+            width: 130px;
+            height: 130px;
+
+            border-radius: 50%;
+
+            object-fit: cover;
+
+            border: 2px solid black;
+
+            margin-bottom: 25px;
+        }
+
+
+        /* ==============================
+           NAMA / IDENTITAS
+        ============================== */
+
+        .identitas {
+            margin-bottom: 18px;
+        }
+
+        .identitas h1 {
+            font-size: 16px;
+            margin: 0;
+            font-weight: bold;
+        }
+
+
+        /* ==============================
+           SOSIAL MEDIA
+        ============================== */
+
+        .social {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            gap: 18px;
+
+            margin-top: 15px;
+        }
+
+        .social-item {
+            text-align: center;
+        }
+
+        .icon {
+            width: 32px;
+            height: 32px;
+
+            border: 2px solid black;
+
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 7px;
+
+            font-size: 12px;
+        }
+
+        .social-item a {
+            color: black;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .social-item a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* ==============================
+           KETERANGAN
+        ============================== */
+
+        .keterangan {
+            margin-top: 35px;
+
+            font-size: 11px;
+
+            line-height: 1.5;
+
+            max-width: 500px;
+
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+
+        <!-- =================================
+             🔴 UBAH DI SINI: FOTO KAMU
+             
+             Masukkan foto ke folder yang sama
+             dengan index.html.
+
+             Contoh:
+             foto.jpg
+        ================================== -->
+
+        <picture>
+            <img
+                class="foto"
+                src="P1.jpeg"
+                alt="Foto Nama Saya"
+            >
+        </picture>
+
+
+        <!-- =================================
+             🔴 UBAH DI SINI: IDENTITAS
+             
+             Isi dengan:
+             Nama / NIM / Fakultas / Program Studi
+        ================================== -->
+
+        <div class="identitas">
+
+            <h1>
+                Alfareza Julian Nasy'at / 102042500188 / Rekayasa Industri / Sistem Informasi
+            </h1>
+
+        </div>
+
+<!-- ==============================
+     SOSIAL MEDIA
+============================== -->
+
+<div class="social">
+
+    <!-- X -->
+    <div class="social-item">
+
+        <a href="https://x.com/USERNAME_KAMU" target="_blank">
+            <div class="icon">
+                <i class="fa-brands fa-x-twitter"></i>
+            </div>
+
+            <span>X</span>
+        </a>
+
+    </div>
+
+
+    <!-- GITHUB -->
+    <div class="social-item">
+
+        <a href="https://github.com/USERNAME_KAMU" target="_blank">
+            <div class="icon">
+                <i class="fa-brands fa-github"></i>
+            </div>
+
+            <span>Github</span>
+        </a>
+
+    </div>
+
+
+    <!-- INSTAGRAM -->
+    <div class="social-item">
+
+        <a href="https://instagram.com/USERNAME_KAMU" target="_blank">
+            <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+            <span>IG</span>
+        </a>
+
+    </div>
+
+
+    <!-- TIKTOK -->
+    <div class="social-item">
+
+        <a href="https://tiktok.com/@USERNAME_KAMU" target="_blank">
+            <div class="icon">
+                <i class="fa-brands fa-tiktok"></i>
+            </div>
+
+            <span>TikTok</span>
+        </a>
+
+    </div>
+
+</div>
